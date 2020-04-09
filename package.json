@@ -1,6 +1,6 @@
 {
   "name": "picture-in-picture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Picture in picture API in all browsers that support it",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/ajoslin/picture-in-picture.git"
   },
-  "keywords": ["picture in picture", "pip", "video", "picture"],
+  "keywords": [
+    "picture in picture",
+    "pip",
+    "video",
+    "picture"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
