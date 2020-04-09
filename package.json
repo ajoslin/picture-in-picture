@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ajoslin/picture-in-picture.git"
   },
+  "keywords": ["picture in picture", "pip", "video", "picture"],
   "author": "",
   "license": "MIT",
   "bugs": {
