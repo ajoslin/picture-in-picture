@@ -1,0 +1,22 @@
+{
+  "name": "picture-in-picture",
+  "version": "0.0.0",
+  "description": "Picture in picture API in all browsers that support it",
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier-standard --lint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajoslin/picture-in-picture.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajoslin/picture-in-picture/issues"
+  },
+  "homepage": "https://github.com/ajoslin/picture-in-picture#readme",
+  "devDependencies": {
+    "prettier-standard": "^16.2.1"
+  }
+}
