@@ -15,7 +15,7 @@ const pip = require('picture-in-picture')
 
 True if pip is supported in this browser.
 
-If false, all bellow methods *will be undefined!*. Do not call pip methods unless this is true.
+If false, all bellow methods _will be undefined!_. Do not call pip methods unless this is true.
 
 #### `pip.request(videoEl)`
 

@@ -25,6 +25,10 @@ function getPip () {
   // Safari
   // https://developer.apple.com/documentation/webkitjs/adding_picture_in_picture_to_your_safari_media_controls
   if (typeof video.webkitSetPresentationMode === 'function') {
+    // Mobile safari says it supports webkitPresentationMode, but you can't pip there.
+    if (/ipad|iphone/i.test(window.navigator.userAgent)) {
+      return { supported: false }
+    }
     return {
       supported: true,
       request: function (video) {
