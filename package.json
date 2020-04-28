@@ -1,6 +1,6 @@
 {
   "name": "picture-in-picture",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Picture in picture API in all browsers that support it",
   "main": "index.js",
   "scripts": {
